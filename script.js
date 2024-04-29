@@ -344,3 +344,14 @@ const imgObserver = new IntersectionObserver(imgCall, imgObj);
 imgs.forEach((el) => {
   imgObserver.observe(el);
 });
+
+document.querySelectorAll(".links").forEach((button) => {
+  button.addEventListener("click", function () {
+    var url = this.getAttribute("data-link");
+    if (url) {
+      window.open(url, "_blank");
+    } else {
+      alert("URL not found");
+    }
+  });
+});
