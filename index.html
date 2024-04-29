@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Orbitron:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="mode.css">
+  </head>
+  <body class="dark">
+    <header>
+      <div class="header__container">
+        <p class="header__logo"><img src="img/logo_dark.png" alt="logo of Hammad Aqdas' portfolio" ></p>
+        <nav>
+          <ul class="header__links">
+            <li class="list--italic goto" data-section="author__container">About</li>
+
+            <li class="list--italic goto" data-section="work__section">Work</li>
+
+            <li class="list--italic goto" data-section="services__container">Services</li>
+
+            <li class="list--italic list-rb-last goto" data-section="contact-form">Contact</li>
+          </ul>
+        </nav>
+        <div class="sidebar"><div class="header__menu svg-menu"><span class="smenu"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+          <g fill="#ff6b00" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M3,9c-0.36064,-0.0051 -0.69608,0.18438 -0.87789,0.49587c-0.18181,0.3115 -0.18181,0.69676 0,1.00825c0.18181,0.3115 0.51725,0.50097 0.87789,0.49587h44c0.36064,0.0051 0.69608,-0.18438 0.87789,-0.49587c0.18181,-0.3115 0.18181,-0.69676 0,-1.00825c-0.18181,-0.3115 -0.51725,-0.50097 -0.87789,-0.49587zM3,24c-0.36064,-0.0051 -0.69608,0.18438 -0.87789,0.49587c-0.18181,0.3115 -0.18181,0.69676 0,1.00825c0.18181,0.3115 0.51725,0.50097 0.87789,0.49587h44c0.36064,0.0051 0.69608,-0.18438 0.87789,-0.49587c0.18181,-0.3115 0.18181,-0.69676 0,-1.00825c-0.18181,-0.3115 -0.51725,-0.50097 -0.87789,-0.49587zM3,39c-0.36064,-0.0051 -0.69608,0.18438 -0.87789,0.49587c-0.18181,0.3115 -0.18181,0.69676 0,1.00825c0.18181,0.3115 0.51725,0.50097 0.87789,0.49587h44c0.36064,0.0051 0.69608,-0.18438 0.87789,-0.49587c0.18181,-0.3115 0.18181,-0.69676 0,-1.00825c-0.18181,-0.3115 -0.51725,-0.50097 -0.87789,-0.49587z"></path></g></g>
+          </svg></span><span class="cmenu"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+            <g fill="#ff6b00" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M7.71875,6.28125l-1.4375,1.4375l17.28125,17.28125l-17.28125,17.28125l1.4375,1.4375l17.28125,-17.28125l17.28125,17.28125l1.4375,-1.4375l-17.28125,-17.28125l17.28125,-17.28125l-1.4375,-1.4375l-17.28125,17.28125z"></path></g></g>
+            </svg></span></div>
+        <div class="sidebar__content">
+          <ul>
+            <li class="btn-toggle-sidebar left tg">
+              <div class="btn-sb"></div>
+              <div class="btn-round toggle__round  sb--effect cl"></div>
+              
+              
+            </li>
+            <li class="goto bl" data-section="author__container">About</li>
+            <li  class="goto bl" data-section="work__section">Work</li>
+            <li  class="goto bl" data-section="services__container">Service</li>
+            <li  class="goto bl" data-section="contact-form">Contact</li>
+          </ul>
+        </div>
+      </div>
+       
+        <div class="header__toggle">
+          <div class="header__toggle-container left tg">
+            <div class="header__toggle-circle toggle__round  nav--effect cl"></div>
+            
+            
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="hero__container">
+        <div class="hero__wrapper">
+          <div class="hero__content-grid">
+            <div class="row--1 col--1 hero__text-first">
+              <h1 class="hero__tiny-img">HELL</h1>
+              <h1 class="font__italic">, I'M </h1>
+              </div>
+            </h1>
+            <div class="hero__paragraph row--2">
+              <p class="rb h_p1">Elevate your digital presence | Crafting memorable websites</p>
+            </div>
+            <h1 class="row--3 col--1 my-name">HAMMAD AQDAS</h1>
+          </div>
+        </div>
+        <div class="hero__social-media">
+          <ul class="hero__social-media-links">
+            <li><a href="mailto:hammadaqdas008@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+              <g class="svgdark" fill="#ff6b00" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M43.75391,6.40234c-1.2177,-0.05335 -2.45911,0.31055 -3.48242,1.06641l-2.74609,2.02734l-12.52539,9.25977l-12.4082,-9.17187c-0.17292,-0.16897 -0.4012,-0.26957 -0.64258,-0.2832h0.25l-2.46484,-1.82422c-1.02397,-0.75773 -2.26723,-1.12367 -3.48633,-1.07031c-1.2191,0.05336 -2.4131,0.52522 -3.33984,1.43945c-1.17726,1.16068 -1.9082,2.78413 -1.9082,4.56445v3.43359c-0.01457,0.09777 -0.01457,0.19715 0,0.29492v23.36133c0,1.92119 1.57881,3.5 3.5,3.5h7.5c0.55226,-0.00006 0.99994,-0.44774 1,-1v-16.62695l11.40625,8.43164c0.353,0.26043 0.8345,0.26043 1.1875,0l11.40625,-8.43164v16.62695c0.00006,0.55226 0.44774,0.99994 1,1h7.5c1.92119,0 3.5,-1.57881 3.5,-3.5v-23.38086c0.01129,-0.08622 0.01129,-0.17355 0,-0.25977v-3.44922c0,-1.75846 -0.70954,-3.37437 -1.87109,-4.53711c-0.03357,-0.03357 -0.04482,-0.04287 -0.03125,-0.0293c-0.00194,-0.00196 -0.0039,-0.00391 -0.00586,-0.00586c-0.92656,-0.91221 -2.12019,-1.3822 -3.33789,-1.43555zM43.64453,8.40039c0.7563,0.02965 1.48952,0.3165 2.04492,0.86328c0.01891,0.01867 0.03272,0.03277 0.02344,0.02344c0.79645,0.79726 1.28711,1.9015 1.28711,3.12305v3.08594l-8,5.91211v-10.4082c0.00042,-0.0339 -0.00088,-0.0678 -0.00391,-0.10156l2.46289,-1.82031c0.00065,0 0.0013,0 0.00195,0c0.64864,-0.47915 1.42729,-0.70739 2.18359,-0.67773zM6.35742,8.40625c0.75715,-0.02964 1.53847,0.19746 2.1875,0.67773l2.45898,1.81836c-0.00289,0.03247 -0.0042,0.06506 -0.00391,0.09766v10.4082l-8,-5.91211v-3.08594c0,-1.23567 0.50176,-2.3413 1.3125,-3.14062c0.55526,-0.54776 1.28777,-0.83364 2.04492,-0.86328zM37,12.37109v10.51563l-12,8.86914l-12,-8.86914v-10.51367l11.40625,8.43164c0.353,0.26043 0.8345,0.26043 1.1875,0zM3,17.98242l8,5.91406v17.10352h-6.5c-0.84081,0 -1.5,-0.65919 -1.5,-1.5zM47,17.98242v21.51758c0,0.84081 -0.65919,1.5 -1.5,1.5h-6.5v-17.10352z"></path></g></g>
+              <g class="svglight" fill="black" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M43.75391,6.40234c-1.2177,-0.05335 -2.45911,0.31055 -3.48242,1.06641l-2.74609,2.02734l-12.52539,9.25977l-12.4082,-9.17187c-0.17292,-0.16897 -0.4012,-0.26957 -0.64258,-0.2832h0.25l-2.46484,-1.82422c-1.02397,-0.75773 -2.26723,-1.12367 -3.48633,-1.07031c-1.2191,0.05336 -2.4131,0.52522 -3.33984,1.43945c-1.17726,1.16068 -1.9082,2.78413 -1.9082,4.56445v3.43359c-0.01457,0.09777 -0.01457,0.19715 0,0.29492v23.36133c0,1.92119 1.57881,3.5 3.5,3.5h7.5c0.55226,-0.00006 0.99994,-0.44774 1,-1v-16.62695l11.40625,8.43164c0.353,0.26043 0.8345,0.26043 1.1875,0l11.40625,-8.43164v16.62695c0.00006,0.55226 0.44774,0.99994 1,1h7.5c1.92119,0 3.5,-1.57881 3.5,-3.5v-23.38086c0.01129,-0.08622 0.01129,-0.17355 0,-0.25977v-3.44922c0,-1.75846 -0.70954,-3.37437 -1.87109,-4.53711c-0.03357,-0.03357 -0.04482,-0.04287 -0.03125,-0.0293c-0.00194,-0.00196 -0.0039,-0.00391 -0.00586,-0.00586c-0.92656,-0.91221 -2.12019,-1.3822 -3.33789,-1.43555zM43.64453,8.40039c0.7563,0.02965 1.48952,0.3165 2.04492,0.86328c0.01891,0.01867 0.03272,0.03277 0.02344,0.02344c0.79645,0.79726 1.28711,1.9015 1.28711,3.12305v3.08594l-8,5.91211v-10.4082c0.00042,-0.0339 -0.00088,-0.0678 -0.00391,-0.10156l2.46289,-1.82031c0.00065,0 0.0013,0 0.00195,0c0.64864,-0.47915 1.42729,-0.70739 2.18359,-0.67773zM6.35742,8.40625c0.75715,-0.02964 1.53847,0.19746 2.1875,0.67773l2.45898,1.81836c-0.00289,0.03247 -0.0042,0.06506 -0.00391,0.09766v10.4082l-8,-5.91211v-3.08594c0,-1.23567 0.50176,-2.3413 1.3125,-3.14062c0.55526,-0.54776 1.28777,-0.83364 2.04492,-0.86328zM37,12.37109v10.51563l-12,8.86914l-12,-8.86914v-10.51367l11.40625,8.43164c0.353,0.26043 0.8345,0.26043 1.1875,0zM3,17.98242l8,5.91406v17.10352h-6.5c-0.84081,0 -1.5,-0.65919 -1.5,-1.5zM47,17.98242v21.51758c0,0.84081 -0.65919,1.5 -1.5,1.5h-6.5v-17.10352z"></path></g></g>
+  
+            </svg></a></li>
+            <li><a href="https://www.facebook.com/hammad.aqdas.5?mibextid=JRoKGi" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+              <g class="svgdark" fill="#ff6b00" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,3c-12.13844,0 -22,9.86156 -22,22c0,11.01913 8.12753,20.13835 18.71289,21.72852l1.14844,0.17383v-17.33594h-5.19727v-3.51953h5.19727v-4.67383c0,-2.87808 0.69065,-4.77363 1.83398,-5.96289c1.14334,-1.18926 2.83269,-1.78906 5.18359,-1.78906c1.87981,0 2.61112,0.1139 3.30664,0.19922v2.88086h-2.44727c-1.38858,0 -2.52783,0.77473 -3.11914,1.80664c-0.59131,1.03191 -0.77539,2.264 -0.77539,3.51953v4.01758h6.12305l-0.54492,3.51953h-5.57812v17.36523l1.13477,-0.1543c10.73582,-1.45602 19.02148,-10.64855 19.02148,-21.77539c0,-12.13844 -9.86156,-22 -22,-22zM25,5c11.05756,0 20,8.94244 20,20c0,9.72979 -6.9642,17.7318 -16.15625,19.5332v-12.96875h5.29297l1.16211,-7.51953h-6.45508v-2.01758c0,-1.03747 0.18982,-1.96705 0.50977,-2.52539c0.31994,-0.55834 0.62835,-0.80078 1.38477,-0.80078h4.44727v-6.69141l-0.86719,-0.11719c-0.59979,-0.08116 -1.96916,-0.27148 -4.43945,-0.27148c-2.7031,0 -5.02334,0.73635 -6.625,2.40234c-1.60166,1.66599 -2.39258,4.14669 -2.39258,7.34961v2.67383h-5.19727v7.51953h5.19727v12.9043c-9.04433,-1.91589 -15.86133,-9.84626 -15.86133,-19.4707c0,-11.05756 8.94244,-20 20,-20z"></path></g></g>
+              <g class="svglight" fill="#120e0e" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,3c-12.13844,0 -22,9.86156 -22,22c0,11.01913 8.12753,20.13835 18.71289,21.72852l1.14844,0.17383v-17.33594h-5.19727v-3.51953h5.19727v-4.67383c0,-2.87808 0.69065,-4.77363 1.83398,-5.96289c1.14334,-1.18926 2.83269,-1.78906 5.18359,-1.78906c1.87981,0 2.61112,0.1139 3.30664,0.19922v2.88086h-2.44727c-1.38858,0 -2.52783,0.77473 -3.11914,1.80664c-0.59131,1.03191 -0.77539,2.264 -0.77539,3.51953v4.01758h6.12305l-0.54492,3.51953h-5.57812v17.36523l1.13477,-0.1543c10.73582,-1.45602 19.02148,-10.64855 19.02148,-21.77539c0,-12.13844 -9.86156,-22 -22,-22zM25,5c11.05756,0 20,8.94244 20,20c0,9.72979 -6.9642,17.7318 -16.15625,19.5332v-12.96875h5.29297l1.16211,-7.51953h-6.45508v-2.01758c0,-1.03747 0.18982,-1.96705 0.50977,-2.52539c0.31994,-0.55834 0.62835,-0.80078 1.38477,-0.80078h4.44727v-6.69141l-0.86719,-0.11719c-0.59979,-0.08116 -1.96916,-0.27148 -4.43945,-0.27148c-2.7031,0 -5.02334,0.73635 -6.625,2.40234c-1.60166,1.66599 -2.39258,4.14669 -2.39258,7.34961v2.67383h-5.19727v7.51953h5.19727v12.9043c-9.04433,-1.91589 -15.86133,-9.84626 -15.86133,-19.4707c0,-11.05756 8.94244,-20 20,-20z"></path></g></g>
+ 
+            </svg></a></li>
+            <li><a href="https://www.instagram.com/_hammad_aqdas/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+              <g class="svgdark" fill="#ff6b00" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M16,3c-7.16752,0 -13,5.83248 -13,13v18c0,7.16752 5.83248,13 13,13h18c7.16752,0 13,-5.83248 13,-13v-18c0,-7.16752 -5.83248,-13 -13,-13zM16,5h18c6.08648,0 11,4.91352 11,11v18c0,6.08648 -4.91352,11 -11,11h-18c-6.08648,0 -11,-4.91352 -11,-11v-18c0,-6.08648 4.91352,-11 11,-11zM37,11c-1.10457,0 -2,0.89543 -2,2c0,1.10457 0.89543,2 2,2c1.10457,0 2,-0.89543 2,-2c0,-1.10457 -0.89543,-2 -2,-2zM25,14c-6.06329,0 -11,4.93671 -11,11c0,6.06329 4.93671,11 11,11c6.06329,0 11,-4.93671 11,-11c0,-6.06329 -4.93671,-11 -11,-11zM25,16c4.98241,0 9,4.01759 9,9c0,4.98241 -4.01759,9 -9,9c-4.98241,0 -9,-4.01759 -9,-9c0,-4.98241 4.01759,-9 9,-9z"></path></g></g>
+              <g class="svglight" fill="#120e0e" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M16,3c-7.16752,0 -13,5.83248 -13,13v18c0,7.16752 5.83248,13 13,13h18c7.16752,0 13,-5.83248 13,-13v-18c0,-7.16752 -5.83248,-13 -13,-13zM16,5h18c6.08648,0 11,4.91352 11,11v18c0,6.08648 -4.91352,11 -11,11h-18c-6.08648,0 -11,-4.91352 -11,-11v-18c0,-6.08648 4.91352,-11 11,-11zM37,11c-1.10457,0 -2,0.89543 -2,2c0,1.10457 0.89543,2 2,2c1.10457,0 2,-0.89543 2,-2c0,-1.10457 -0.89543,-2 -2,-2zM25,14c-6.06329,0 -11,4.93671 -11,11c0,6.06329 4.93671,11 11,11c6.06329,0 11,-4.93671 11,-11c0,-6.06329 -4.93671,-11 -11,-11zM25,16c4.98241,0 9,4.01759 9,9c0,4.98241 -4.01759,9 -9,9c-4.98241,0 -9,-4.01759 -9,-9c0,-4.98241 4.01759,-9 9,-9z"></path></g></g>
+  
+            </svg></a></li>
+            <li><a href="https://x.com/planet_three3?t=rNI_DMNf9T95Ghjow5LXNg&s=09" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+              <g  class="svgdark"  fill="#ff6b00" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M5.91992,6l14.66211,21.375l-14.35156,16.625h3.17969l12.57617,-14.57812l10,14.57813h12.01367l-15.31836,-22.33008l13.51758,-15.66992h-3.16992l-11.75391,13.61719l-9.3418,-13.61719zM9.7168,8h7.16406l23.32227,34h-7.16406z"></path></g></g>
+              <g  class="svglight"  fill="#120e0e" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M5.91992,6l14.66211,21.375l-14.35156,16.625h3.17969l12.57617,-14.57812l10,14.57813h12.01367l-15.31836,-22.33008l13.51758,-15.66992h-3.16992l-11.75391,13.61719l-9.3418,-13.61719zM9.7168,8h7.16406l23.32227,34h-7.16406z"></path></g></g>
+
+            </svg></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="author">
+      <div class="author__container">
+        <div class="author__introduction ">
+          <div class="author__introduction-1">
+            <div class="author__designation">
+              
+              <h1>R</h1>
+              <h1>E</h1>
+              <h1>P</h1>
+              <h1>O</h1>
+              <h1>L</h1>
+              <h1>E</h1>
+              <h1>V</h1>
+              <h1>E</h1>
+              <h1>D</h1>
+            
+         
+          </div>
+            <div class="author__image"><img src="img/author_img.jpg" alt="Hammad Aqdas portrait in about section"></div>
+           
+          </div>
+          <div class="author__introduction-2">
+            <p>I'm an enthusiastic designer and developer located in New Delhi, India. I have an eye for design and am skilled at building visually appealing websites that offer a smooth user experience in addition to efficiently showcasing businesses.</p>
+             <p>Together, let's transform your concepts into engaging web content!</p>
+          </div>
+        </div>
+        <div class="author__education lb">
+          <div class="author__education-wrapper">
+            <div class="author__education-1">
+              <h2>EDUCATION</h2>
+              <h3>2020 - 2024</h3>
+              <p>B.Tech (CSE),</p>
+              <p>Bharati Vidyapeeth’s College of Engineering</p>
+              <h3>2018 - 2020</h3>
+              <p>High School (CBSE Board),</p>
+              <p>Dev Samaj Modern School No - 2</p>
+            </div>
+            
+          </div>
+        
+        </div>
+      </div>
+      
+    </section>
+    <section class="author">
+      <div class="author__skills-container">
+        <h1 class="head__wrap">SKILLS</h1>
+        <div class="author__skills">
+          <div class="skills">
+            <div
+            class="circular-progress"
+            data-inner-circle-color-db="#191414"
+            data-inner-circle-color-lb="#ffffff"
+            data-percentage="94"
+            data-progress-color-db="white"
+            data-progress-color-lb="#191414"
+            data-bg-color-db="#191414"
+            data-bg-color-lb="#ffffff"
+    >
+      <div class="inner-circle"></div>
+      <p class="percentage">0%</p>
+    </div>
+            <p>HTML</p>
+          </div>
+          <div class="skills"> <div
+            class="circular-progress"
+      data-inner-circle-color-db="#191414"
+      data-inner-circle-color-lb="#ffffff"
+      data-percentage="90"
+      data-progress-color-db="white"
+      data-progress-color-lb="#191414"
+      data-bg-color-db="#191414"
+      data-bg-color-lb="#ffffff"
+          >
+            <div class="inner-circle"></div>
+            <p class="percentage">0%</p>
+          </div>
+          <p>CSS</p>
+        </div>
+          <div class="skills"> <div
+            class="circular-progress"
+      data-inner-circle-color-db="#191414"
+      data-inner-circle-color-lb="#ffffff"
+      data-percentage="92"
+      data-progress-color-db="white"
+      data-progress-color-lb="#191414"
+      data-bg-color-db="#191414"
+      data-bg-color-lb="#ffffff"
+          >
+            <div class="inner-circle"></div>
+            <p class="percentage">0%</p>
+          </div>
+          <p>Javascript</p></div>
+          <div class="skills"> <div
+            class="circular-progress"
+      data-inner-circle-color-db="#191414"
+      data-inner-circle-color-lb="#ffffff"
+      data-percentage="85"
+      data-progress-color-db="white"
+      data-progress-color-lb="#191414"
+      data-bg-color-db="#191414"
+      data-bg-color-lb="#ffffff"
+          >
+            <div class="inner-circle"></div>
+            <p class="percentage">0%</p>
+          </div>
+          <p>ReactJS</p>
+        
+        </div>
+          <div class="skills"> <div
+            class="circular-progress"
+            data-inner-circle-color-db="#191414"
+            data-inner-circle-color-lb="#ffffff"
+            data-percentage="90"
+            data-progress-color-db="white"
+            data-progress-color-lb="#191414"
+            data-bg-color-db="#191414"
+            data-bg-color-lb="#ffffff"
+          >
+            <div class="inner-circle"></div>
+            <p class="percentage">0%</p>
+          </div> <p>NodeJS</p>
+        </div>
+          <div class="skills"> <div
+            class="circular-progress"
+            data-inner-circle-color-db="#191414"
+            data-inner-circle-color-lb="#ffffff"
+            data-percentage="80"
+            data-progress-color-db="white"
+            data-progress-color-lb="#191414"
+            data-bg-color-db="#191414"
+            data-bg-color-lb="#ffffff"
+          >
+            <div class="inner-circle"></div>
+            <p class="percentage">0%</p>
+          </div>
+          <p>MongoDB</p>
+        </div>
+          <div class="skills"> <div
+            class="circular-progress"
+            data-inner-circle-color-db="#191414"
+            data-inner-circle-color-lb="#ffffff"
+            data-percentage="90"
+            data-progress-color-db="white"
+            data-progress-color-lb="#191414"
+            data-bg-color-db="#191414"
+            data-bg-color-lb="#ffffff"
+          >
+            <div class="inner-circle"></div>
+            <p class="percentage">0%</p>
+          </div>
+          <p>Full stack Development</p>
+        </div>
+          <div class="skills"> <div
+            class="circular-progress"
+      data-inner-circle-color-db="#191414"
+      data-inner-circle-color-lb="#ffffff"
+      data-percentage="80"
+      data-progress-color-db="white"
+      data-progress-color-lb="#191414"
+      data-bg-color-db="#191414"
+      data-bg-color-lb="#ffffff"
+          >
+            <div class="inner-circle"></div>
+            <p class="percentage">80</p>
+          </div>
+          <p>Figma</p></div>
+          <div class="skills"> <div
+            class="circular-progress"
+            data-inner-circle-color-db="#191414"
+            data-inner-circle-color-lb="#ffffff"
+            data-percentage="80"
+            data-progress-color-db="white"
+            data-progress-color-lb="#191414"
+            data-bg-color-db="#191414"
+            data-bg-color-lb="#ffffff"
+          >
+            <div class="inner-circle"></div>
+            <p class="percentage">0%</p>
+          </div> <p>SQL</p></div>
+        </div>
+      </div>
+
+    </section>
+    <section class="language-contact">
+      <div class="language-contact__container">
+        <div class="language__details">
+          <h1 class="head__wrap">LANGUAGES</h1>
+          <div class="language-bars" data-mode = 'light'>
+            <div class="langauage-bar-1">
+              <p>English</p>
+              <div class="bar" data-percentage="80"></div>
+            </div>
+            <div class="langauage-bar-2">
+              <p>Hindi</p>
+              <div class="bar" data-percentage="90"></div>
+            </div>
+            <div class="langauage-bar-3">
+              <p>Urdu</p>
+              <div class="bar" data-percentage="85"></div>
+            </div>
+          </div>
+        </div>
+        <div class="contact__details">
+          <h1 class="head__wrap">CONTACTS</h1>
+          <div class="contact__deatils-wrapper">
+            <div class="contact ">
+              <div class="contact-svg  "><svg  class = "svg--c" fill="#d1d0d0" height="200px" width="200px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 473.806 473.806" xml:space="preserve" stroke="#d1d0d0"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M374.456,293.506c-9.7-10.1-21.4-15.5-33.8-15.5c-12.3,0-24.1,5.3-34.2,15.4l-31.6,31.5c-2.6-1.4-5.2-2.7-7.7-4 c-3.6-1.8-7-3.5-9.9-5.3c-29.6-18.8-56.5-43.3-82.3-75c-12.5-15.8-20.9-29.1-27-42.6c8.2-7.5,15.8-15.3,23.2-22.8 c2.8-2.8,5.6-5.7,8.4-8.5c21-21,21-48.2,0-69.2l-27.3-27.3c-3.1-3.1-6.3-6.3-9.3-9.5c-6-6.2-12.3-12.6-18.8-18.6 c-9.7-9.6-21.3-14.7-33.5-14.7s-24,5.1-34,14.7c-0.1,0.1-0.1,0.1-0.2,0.2l-34,34.3c-12.8,12.8-20.1,28.4-21.7,46.5 c-2.4,29.2,6.2,56.4,12.8,74.2c16.2,43.7,40.4,84.2,76.5,127.6c43.8,52.3,96.5,93.6,156.7,122.7c23,10.9,53.7,23.8,88,26 c2.1,0.1,4.3,0.2,6.3,0.2c23.1,0,42.5-8.3,57.7-24.8c0.1-0.2,0.3-0.3,0.4-0.5c5.2-6.3,11.2-12,17.5-18.1c4.3-4.1,8.7-8.4,13-12.9 c9.9-10.3,15.1-22.3,15.1-34.6c0-12.4-5.3-24.3-15.4-34.3L374.456,293.506z M410.256,398.806 C410.156,398.806,410.156,398.906,410.256,398.806c-3.9,4.2-7.9,8-12.2,12.2c-6.5,6.2-13.1,12.7-19.3,20 c-10.1,10.8-22,15.9-37.6,15.9c-1.5,0-3.1,0-4.6-0.1c-29.7-1.9-57.3-13.5-78-23.4c-56.6-27.4-106.3-66.3-147.6-115.6 c-34.1-41.1-56.9-79.1-72-119.9c-9.3-24.9-12.7-44.3-11.2-62.6c1-11.7,5.5-21.4,13.8-29.7l34.1-34.1c4.9-4.6,10.1-7.1,15.2-7.1 c6.3,0,11.4,3.8,14.6,7c0.1,0.1,0.2,0.2,0.3,0.3c6.1,5.7,11.9,11.6,18,17.9c3.1,3.2,6.3,6.4,9.5,9.7l27.3,27.3 c10.6,10.6,10.6,20.4,0,31c-2.9,2.9-5.7,5.8-8.6,8.6c-8.4,8.6-16.4,16.6-25.1,24.4c-0.2,0.2-0.4,0.3-0.5,0.5 c-8.6,8.6-7,17-5.2,22.7c0.1,0.3,0.2,0.6,0.3,0.9c7.1,17.2,17.1,33.4,32.3,52.7l0.1,0.1c27.6,34,56.7,60.5,88.8,80.8 c4.1,2.6,8.3,4.7,12.3,6.7c3.6,1.8,7,3.5,9.9,5.3c0.4,0.2,0.8,0.5,1.2,0.7c3.4,1.7,6.6,2.5,9.9,2.5c8.3,0,13.5-5.2,15.2-6.9 l34.2-34.2c3.4-3.4,8.8-7.5,15.1-7.5c6.2,0,11.3,3.9,14.4,7.3c0.1,0.1,0.1,0.1,0.2,0.2l55.1,55.1 C420.456,377.706,420.456,388.206,410.256,398.806z"></path> <path d="M256.056,112.706c26.2,4.4,50,16.8,69,35.8s31.3,42.8,35.8,69c1.1,6.6,6.8,11.2,13.3,11.2c0.8,0,1.5-0.1,2.3-0.2 c7.4-1.2,12.3-8.2,11.1-15.6c-5.4-31.7-20.4-60.6-43.3-83.5s-51.8-37.9-83.5-43.3c-7.4-1.2-14.3,3.7-15.6,11 S248.656,111.506,256.056,112.706z"></path> <path d="M473.256,209.006c-8.9-52.2-33.5-99.7-71.3-137.5s-85.3-62.4-137.5-71.3c-7.3-1.3-14.2,3.7-15.5,11 c-1.2,7.4,3.7,14.3,11.1,15.6c46.6,7.9,89.1,30,122.9,63.7c33.8,33.8,55.8,76.3,63.7,122.9c1.1,6.6,6.8,11.2,13.3,11.2 c0.8,0,1.5-0.1,2.3-0.2C469.556,223.306,474.556,216.306,473.256,209.006z"></path> </g> </g> </g>
+              </svg>
+              <!-- <svg class="svglight"  fill="#120e0e" height="200px" width="200px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 473.806 473.806" xml:space="preserve" stroke="#d1d0d0"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M374.456,293.506c-9.7-10.1-21.4-15.5-33.8-15.5c-12.3,0-24.1,5.3-34.2,15.4l-31.6,31.5c-2.6-1.4-5.2-2.7-7.7-4 c-3.6-1.8-7-3.5-9.9-5.3c-29.6-18.8-56.5-43.3-82.3-75c-12.5-15.8-20.9-29.1-27-42.6c8.2-7.5,15.8-15.3,23.2-22.8 c2.8-2.8,5.6-5.7,8.4-8.5c21-21,21-48.2,0-69.2l-27.3-27.3c-3.1-3.1-6.3-6.3-9.3-9.5c-6-6.2-12.3-12.6-18.8-18.6 c-9.7-9.6-21.3-14.7-33.5-14.7s-24,5.1-34,14.7c-0.1,0.1-0.1,0.1-0.2,0.2l-34,34.3c-12.8,12.8-20.1,28.4-21.7,46.5 c-2.4,29.2,6.2,56.4,12.8,74.2c16.2,43.7,40.4,84.2,76.5,127.6c43.8,52.3,96.5,93.6,156.7,122.7c23,10.9,53.7,23.8,88,26 c2.1,0.1,4.3,0.2,6.3,0.2c23.1,0,42.5-8.3,57.7-24.8c0.1-0.2,0.3-0.3,0.4-0.5c5.2-6.3,11.2-12,17.5-18.1c4.3-4.1,8.7-8.4,13-12.9 c9.9-10.3,15.1-22.3,15.1-34.6c0-12.4-5.3-24.3-15.4-34.3L374.456,293.506z M410.256,398.806 C410.156,398.806,410.156,398.906,410.256,398.806c-3.9,4.2-7.9,8-12.2,12.2c-6.5,6.2-13.1,12.7-19.3,20 c-10.1,10.8-22,15.9-37.6,15.9c-1.5,0-3.1,0-4.6-0.1c-29.7-1.9-57.3-13.5-78-23.4c-56.6-27.4-106.3-66.3-147.6-115.6 c-34.1-41.1-56.9-79.1-72-119.9c-9.3-24.9-12.7-44.3-11.2-62.6c1-11.7,5.5-21.4,13.8-29.7l34.1-34.1c4.9-4.6,10.1-7.1,15.2-7.1 c6.3,0,11.4,3.8,14.6,7c0.1,0.1,0.2,0.2,0.3,0.3c6.1,5.7,11.9,11.6,18,17.9c3.1,3.2,6.3,6.4,9.5,9.7l27.3,27.3 c10.6,10.6,10.6,20.4,0,31c-2.9,2.9-5.7,5.8-8.6,8.6c-8.4,8.6-16.4,16.6-25.1,24.4c-0.2,0.2-0.4,0.3-0.5,0.5 c-8.6,8.6-7,17-5.2,22.7c0.1,0.3,0.2,0.6,0.3,0.9c7.1,17.2,17.1,33.4,32.3,52.7l0.1,0.1c27.6,34,56.7,60.5,88.8,80.8 c4.1,2.6,8.3,4.7,12.3,6.7c3.6,1.8,7,3.5,9.9,5.3c0.4,0.2,0.8,0.5,1.2,0.7c3.4,1.7,6.6,2.5,9.9,2.5c8.3,0,13.5-5.2,15.2-6.9 l34.2-34.2c3.4-3.4,8.8-7.5,15.1-7.5c6.2,0,11.3,3.9,14.4,7.3c0.1,0.1,0.1,0.1,0.2,0.2l55.1,55.1 C420.456,377.706,420.456,388.206,410.256,398.806z"></path> <path d="M256.056,112.706c26.2,4.4,50,16.8,69,35.8s31.3,42.8,35.8,69c1.1,6.6,6.8,11.2,13.3,11.2c0.8,0,1.5-0.1,2.3-0.2 c7.4-1.2,12.3-8.2,11.1-15.6c-5.4-31.7-20.4-60.6-43.3-83.5s-51.8-37.9-83.5-43.3c-7.4-1.2-14.3,3.7-15.6,11 S248.656,111.506,256.056,112.706z"></path> <path d="M473.256,209.006c-8.9-52.2-33.5-99.7-71.3-137.5s-85.3-62.4-137.5-71.3c-7.3-1.3-14.2,3.7-15.5,11 c-1.2,7.4,3.7,14.3,11.1,15.6c46.6,7.9,89.1,30,122.9,63.7c33.8,33.8,55.8,76.3,63.7,122.9c1.1,6.6,6.8,11.2,13.3,11.2 c0.8,0,1.5-0.1,2.3-0.2C469.556,223.306,474.556,216.306,473.256,209.006z"></path> </g> </g> </g></svg>  -->
+  
+            </div>
+              <p>+91 8287107980</p>
+            </div>
+            
+
+            <div class="contact">
+              <div class="contact-svg"><a href="/gmail"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+                <g class="svgdark"  fill="#d1d0d0" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M43.75391,6.40234c-1.2177,-0.05335 -2.45911,0.31055 -3.48242,1.06641l-2.74609,2.02734l-12.52539,9.25977l-12.4082,-9.17187c-0.17292,-0.16897 -0.4012,-0.26957 -0.64258,-0.2832h0.25l-2.46484,-1.82422c-1.02397,-0.75773 -2.26723,-1.12367 -3.48633,-1.07031c-1.2191,0.05336 -2.4131,0.52522 -3.33984,1.43945c-1.17726,1.16068 -1.9082,2.78413 -1.9082,4.56445v3.43359c-0.01457,0.09777 -0.01457,0.19715 0,0.29492v23.36133c0,1.92119 1.57881,3.5 3.5,3.5h7.5c0.55226,-0.00006 0.99994,-0.44774 1,-1v-16.62695l11.40625,8.43164c0.353,0.26043 0.8345,0.26043 1.1875,0l11.40625,-8.43164v16.62695c0.00006,0.55226 0.44774,0.99994 1,1h7.5c1.92119,0 3.5,-1.57881 3.5,-3.5v-23.38086c0.01129,-0.08622 0.01129,-0.17355 0,-0.25977v-3.44922c0,-1.75846 -0.70954,-3.37437 -1.87109,-4.53711c-0.03357,-0.03357 -0.04482,-0.04287 -0.03125,-0.0293c-0.00194,-0.00196 -0.0039,-0.00391 -0.00586,-0.00586c-0.92656,-0.91221 -2.12019,-1.3822 -3.33789,-1.43555zM43.64453,8.40039c0.7563,0.02965 1.48952,0.3165 2.04492,0.86328c0.01891,0.01867 0.03272,0.03277 0.02344,0.02344c0.79645,0.79726 1.28711,1.9015 1.28711,3.12305v3.08594l-8,5.91211v-10.4082c0.00042,-0.0339 -0.00088,-0.0678 -0.00391,-0.10156l2.46289,-1.82031c0.00065,0 0.0013,0 0.00195,0c0.64864,-0.47915 1.42729,-0.70739 2.18359,-0.67773zM6.35742,8.40625c0.75715,-0.02964 1.53847,0.19746 2.1875,0.67773l2.45898,1.81836c-0.00289,0.03247 -0.0042,0.06506 -0.00391,0.09766v10.4082l-8,-5.91211v-3.08594c0,-1.23567 0.50176,-2.3413 1.3125,-3.14062c0.55526,-0.54776 1.28777,-0.83364 2.04492,-0.86328zM37,12.37109v10.51563l-12,8.86914l-12,-8.86914v-10.51367l11.40625,8.43164c0.353,0.26043 0.8345,0.26043 1.1875,0zM3,17.98242l8,5.91406v17.10352h-6.5c-0.84081,0 -1.5,-0.65919 -1.5,-1.5zM47,17.98242v21.51758c0,0.84081 -0.65919,1.5 -1.5,1.5h-6.5v-17.10352z"></path></g></g>
+                <!-- class="svglight"   -->
+                <g class="svglight"  fill="#120e0e" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M43.75391,6.40234c-1.2177,-0.05335 -2.45911,0.31055 -3.48242,1.06641l-2.74609,2.02734l-12.52539,9.25977l-12.4082,-9.17187c-0.17292,-0.16897 -0.4012,-0.26957 -0.64258,-0.2832h0.25l-2.46484,-1.82422c-1.02397,-0.75773 -2.26723,-1.12367 -3.48633,-1.07031c-1.2191,0.05336 -2.4131,0.52522 -3.33984,1.43945c-1.17726,1.16068 -1.9082,2.78413 -1.9082,4.56445v3.43359c-0.01457,0.09777 -0.01457,0.19715 0,0.29492v23.36133c0,1.92119 1.57881,3.5 3.5,3.5h7.5c0.55226,-0.00006 0.99994,-0.44774 1,-1v-16.62695l11.40625,8.43164c0.353,0.26043 0.8345,0.26043 1.1875,0l11.40625,-8.43164v16.62695c0.00006,0.55226 0.44774,0.99994 1,1h7.5c1.92119,0 3.5,-1.57881 3.5,-3.5v-23.38086c0.01129,-0.08622 0.01129,-0.17355 0,-0.25977v-3.44922c0,-1.75846 -0.70954,-3.37437 -1.87109,-4.53711c-0.03357,-0.03357 -0.04482,-0.04287 -0.03125,-0.0293c-0.00194,-0.00196 -0.0039,-0.00391 -0.00586,-0.00586c-0.92656,-0.91221 -2.12019,-1.3822 -3.33789,-1.43555zM43.64453,8.40039c0.7563,0.02965 1.48952,0.3165 2.04492,0.86328c0.01891,0.01867 0.03272,0.03277 0.02344,0.02344c0.79645,0.79726 1.28711,1.9015 1.28711,3.12305v3.08594l-8,5.91211v-10.4082c0.00042,-0.0339 -0.00088,-0.0678 -0.00391,-0.10156l2.46289,-1.82031c0.00065,0 0.0013,0 0.00195,0c0.64864,-0.47915 1.42729,-0.70739 2.18359,-0.67773zM6.35742,8.40625c0.75715,-0.02964 1.53847,0.19746 2.1875,0.67773l2.45898,1.81836c-0.00289,0.03247 -0.0042,0.06506 -0.00391,0.09766v10.4082l-8,-5.91211v-3.08594c0,-1.23567 0.50176,-2.3413 1.3125,-3.14062c0.55526,-0.54776 1.28777,-0.83364 2.04492,-0.86328zM37,12.37109v10.51563l-12,8.86914l-12,-8.86914v-10.51367l11.40625,8.43164c0.353,0.26043 0.8345,0.26043 1.1875,0zM3,17.98242l8,5.91406v17.10352h-6.5c-0.84081,0 -1.5,-0.65919 -1.5,-1.5zM47,17.98242v21.51758c0,0.84081 -0.65919,1.5 -1.5,1.5h-6.5v-17.10352z"></path></g></g>
+
+              </svg>
+              </a>
+              </div>
+              <p>hammadaqdas008@gmail.com</p>
+            </div>
+            <div class="contact">
+              <div class="contact-svg"><a href="/upwork"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+                <g class="svgdarkt" fill="#d1d0d0" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M1,9c-0.55226,0.00006 -0.99994,0.44774 -1,1v14.5c0,6.33231 5.16769,11.5 11.5,11.5c5.7227,0 10.28472,-4.29277 11.15039,-9.7793c0.61656,0.85415 1.20247,1.72649 1.89844,2.50781c-1.24354,5.26909 -2.79448,11.85771 -3.54492,15.04297c-0.06971,0.29717 0.0001,0.6099 0.18957,0.84921c0.18947,0.23931 0.47785,0.37899 0.78309,0.3793h6.16406c0.46464,0.00046 0.8684,-0.31915 0.97461,-0.77148c0.68155,-2.89323 1.54613,-6.56487 2.35938,-10.01562c1.85098,0.96918 3.99238,1.78711 6.52539,1.78711c6.60746,0 12,-5.39254 12,-12c0,-6.60746 -5.39254,-12 -12,-12c-4.6484,0 -8.67051,2.73649 -10.65039,6.78711c-2.09924,-3.63406 -3.67007,-7.46585 -4.24219,-9.11523c-0.13983,-0.40245 -0.51926,-0.67213 -0.94531,-0.67187h-6.16211c-0.55226,0.00006 -0.99994,0.44774 -1,1v14.5c0,1.93848 -1.56152,3.5 -3.5,3.5c-1.93848,0 -3.5,-1.56152 -3.5,-3.5v-14.5c-0.00006,-0.55226 -0.44774,-0.99994 -1,-1zM2,11h4v13.5c0,3.02352 2.47648,5.5 5.5,5.5c3.02352,0 5.5,-2.47648 5.5,-5.5v-13.5h4.48242c0.79098,2.21544 2.46253,6.53764 5.08398,10.54688c0.21457,0.32886 0.60173,0.50172 0.98981,0.44195c0.38809,-0.05977 0.70529,-0.34112 0.81097,-0.71929c1.20332,-4.31485 5.12351,-7.26953 9.63281,-7.26953c5.52254,0 10,4.47746 10,10c0,5.52254 -4.47746,10 -10,10c-2.58443,0 -4.86063,-0.93988 -6.69336,-2.06641c-0.27356,-0.1677 -0.61097,-0.19397 -0.90719,-0.07061c-0.29621,0.12336 -0.51525,0.38135 -0.58891,0.69366c-0.83346,3.53593 -1.72348,7.31271 -2.46094,10.44336h-4.10937c0.82804,-3.51531 2.20044,-9.34383 3.36133,-14.26172c0.07681,-0.32541 -0.01407,-0.66767 -0.24219,-0.91211c-1.29188,-1.38778 -2.46927,-2.99204 -3.51367,-4.65234c-0.23768,-0.37638 -0.69552,-0.55036 -1.12317,-0.42681c-0.42766,0.12354 -0.72218,0.51487 -0.72253,0.96001v0.79297c0,5.24769 -4.25231,9.5 -9.5,9.5c-5.24769,0 -9.5,-4.25231 -9.5,-9.5zM38,18c-2.73299,0 -5.13101,1.85494 -5.81055,4.5c-0.07149,0.27836 -0.39152,1.63658 -0.89258,3.75781c-0.08865,0.37408 0.04499,0.76587 0.34375,1.00781c1.51484,1.22739 3.73146,2.73438 6.35938,2.73438c3.29938,0 6,-2.70062 6,-6c0,-3.29938 -2.70062,-6 -6,-6zM38,20c2.21462,0 4,1.78538 4,4c0,2.21462 -1.78538,4 -4,4c-1.63116,0 -3.2736,-0.9644 -4.5957,-1.95898c0.36244,-1.53153 0.70425,-2.97323 0.72266,-3.04492c0.45446,-1.76894 2.04004,-2.99609 3.87305,-2.99609z"></path></g></g>
+                <g class="svglight"  fill="#120e0e" fill="#d1d0d0" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M1,9c-0.55226,0.00006 -0.99994,0.44774 -1,1v14.5c0,6.33231 5.16769,11.5 11.5,11.5c5.7227,0 10.28472,-4.29277 11.15039,-9.7793c0.61656,0.85415 1.20247,1.72649 1.89844,2.50781c-1.24354,5.26909 -2.79448,11.85771 -3.54492,15.04297c-0.06971,0.29717 0.0001,0.6099 0.18957,0.84921c0.18947,0.23931 0.47785,0.37899 0.78309,0.3793h6.16406c0.46464,0.00046 0.8684,-0.31915 0.97461,-0.77148c0.68155,-2.89323 1.54613,-6.56487 2.35938,-10.01562c1.85098,0.96918 3.99238,1.78711 6.52539,1.78711c6.60746,0 12,-5.39254 12,-12c0,-6.60746 -5.39254,-12 -12,-12c-4.6484,0 -8.67051,2.73649 -10.65039,6.78711c-2.09924,-3.63406 -3.67007,-7.46585 -4.24219,-9.11523c-0.13983,-0.40245 -0.51926,-0.67213 -0.94531,-0.67187h-6.16211c-0.55226,0.00006 -0.99994,0.44774 -1,1v14.5c0,1.93848 -1.56152,3.5 -3.5,3.5c-1.93848,0 -3.5,-1.56152 -3.5,-3.5v-14.5c-0.00006,-0.55226 -0.44774,-0.99994 -1,-1zM2,11h4v13.5c0,3.02352 2.47648,5.5 5.5,5.5c3.02352,0 5.5,-2.47648 5.5,-5.5v-13.5h4.48242c0.79098,2.21544 2.46253,6.53764 5.08398,10.54688c0.21457,0.32886 0.60173,0.50172 0.98981,0.44195c0.38809,-0.05977 0.70529,-0.34112 0.81097,-0.71929c1.20332,-4.31485 5.12351,-7.26953 9.63281,-7.26953c5.52254,0 10,4.47746 10,10c0,5.52254 -4.47746,10 -10,10c-2.58443,0 -4.86063,-0.93988 -6.69336,-2.06641c-0.27356,-0.1677 -0.61097,-0.19397 -0.90719,-0.07061c-0.29621,0.12336 -0.51525,0.38135 -0.58891,0.69366c-0.83346,3.53593 -1.72348,7.31271 -2.46094,10.44336h-4.10937c0.82804,-3.51531 2.20044,-9.34383 3.36133,-14.26172c0.07681,-0.32541 -0.01407,-0.66767 -0.24219,-0.91211c-1.29188,-1.38778 -2.46927,-2.99204 -3.51367,-4.65234c-0.23768,-0.37638 -0.69552,-0.55036 -1.12317,-0.42681c-0.42766,0.12354 -0.72218,0.51487 -0.72253,0.96001v0.79297c0,5.24769 -4.25231,9.5 -9.5,9.5c-5.24769,0 -9.5,-4.25231 -9.5,-9.5zM38,18c-2.73299,0 -5.13101,1.85494 -5.81055,4.5c-0.07149,0.27836 -0.39152,1.63658 -0.89258,3.75781c-0.08865,0.37408 0.04499,0.76587 0.34375,1.00781c1.51484,1.22739 3.73146,2.73438 6.35938,2.73438c3.29938,0 6,-2.70062 6,-6c0,-3.29938 -2.70062,-6 -6,-6zM38,20c2.21462,0 4,1.78538 4,4c0,2.21462 -1.78538,4 -4,4c-1.63116,0 -3.2736,-0.9644 -4.5957,-1.95898c0.36244,-1.53153 0.70425,-2.97323 0.72266,-3.04492c0.45446,-1.76894 2.04004,-2.99609 3.87305,-2.99609z"></path></g></g>
+  
+              </svg>
+            </a></div>
+              <p>Upwork</p>
+            </div>
+            <div class="contact">
+              <div class="contact-svg"><a href="/linkedin"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+                <g lass="svgdarkt" fill="#d1d0d0" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M9,4c-2.74952,0 -5,2.25048 -5,5v32c0,2.74952 2.25048,5 5,5h32c2.74952,0 5,-2.25048 5,-5v-32c0,-2.74952 -2.25048,-5 -5,-5zM9,6h32c1.66848,0 3,1.33152 3,3v32c0,1.66848 -1.33152,3 -3,3h-32c-1.66848,0 -3,-1.33152 -3,-3v-32c0,-1.66848 1.33152,-3 3,-3zM14,11.01172c-1.09522,0 -2.08078,0.32736 -2.81055,0.94141c-0.72977,0.61405 -1.17773,1.53139 -1.17773,2.51367c0,1.86718 1.61957,3.32281 3.67969,3.4668c0.0013,0.00065 0.0026,0.0013 0.00391,0.00195c0.09817,0.03346 0.20099,0.05126 0.30469,0.05273c2.27301,0 3.98828,-1.5922 3.98828,-3.52148c-0.00018,-0.01759 -0.00083,-0.03518 -0.00195,-0.05274c-0.10175,-1.90023 -1.79589,-3.40234 -3.98633,-3.40234zM14,12.98828c1.39223,0 1.94197,0.62176 2.00195,1.50391c-0.01215,0.85625 -0.54186,1.51953 -2.00195,1.51953c-1.38541,0 -2.01172,-0.70949 -2.01172,-1.54492c0,-0.41771 0.15242,-0.7325 0.47266,-1.00195c0.32023,-0.26945 0.83428,-0.47656 1.53906,-0.47656zM11,19c-0.55226,0.00006 -0.99994,0.44774 -1,1v19c0.00006,0.55226 0.44774,0.99994 1,1h6c0.55226,-0.00006 0.99994,-0.44774 1,-1v-5.86523v-13.13477c-0.00006,-0.55226 -0.44774,-0.99994 -1,-1zM20,19c-0.55226,0.00006 -0.99994,0.44774 -1,1v19c0.00006,0.55226 0.44774,0.99994 1,1h6c0.55226,-0.00006 0.99994,-0.44774 1,-1v-10c0,-0.82967 0.22639,-1.65497 0.625,-2.19531c0.39861,-0.54035 0.90147,-0.86463 1.85742,-0.84766c0.98574,0.01695 1.50758,0.35464 1.90234,0.88477c0.39477,0.53013 0.61523,1.32487 0.61523,2.1582v10c0.00006,0.55226 0.44774,0.99994 1,1h6c0.55226,-0.00006 0.99994,-0.44774 1,-1v-10.73828c0,-2.96154 -0.87721,-5.30739 -2.38086,-6.89453c-1.50365,-1.58714 -3.59497,-2.36719 -5.80664,-2.36719c-2.10202,0 -3.70165,0.70489 -4.8125,1.42383v-0.42383c-0.00006,-0.55226 -0.44774,-0.99994 -1,-1zM12,21h4v12.13477v4.86523h-4zM21,21h4v1.56055c0.00013,0.43 0.27511,0.81179 0.68291,0.94817c0.40781,0.13638 0.85714,-0.00319 1.11591,-0.34661c0,0 1.57037,-2.16211 5.01367,-2.16211c1.75333,0 3.25687,0.58258 4.35547,1.74219c1.0986,1.15961 1.83203,2.94607 1.83203,5.51953v9.73828h-4v-9c0,-1.16667 -0.27953,-2.37289 -1.00977,-3.35352c-0.73023,-0.98062 -1.9584,-1.66341 -3.47266,-1.68945c-1.52204,-0.02703 -2.77006,0.66996 -3.50195,1.66211c-0.73189,0.99215 -1.01562,2.21053 -1.01562,3.38086v9h-4z"></path></g></g>
+                <g class="svglight"  fill="#120e0e" fill="#d1d0d0" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M9,4c-2.74952,0 -5,2.25048 -5,5v32c0,2.74952 2.25048,5 5,5h32c2.74952,0 5,-2.25048 5,-5v-32c0,-2.74952 -2.25048,-5 -5,-5zM9,6h32c1.66848,0 3,1.33152 3,3v32c0,1.66848 -1.33152,3 -3,3h-32c-1.66848,0 -3,-1.33152 -3,-3v-32c0,-1.66848 1.33152,-3 3,-3zM14,11.01172c-1.09522,0 -2.08078,0.32736 -2.81055,0.94141c-0.72977,0.61405 -1.17773,1.53139 -1.17773,2.51367c0,1.86718 1.61957,3.32281 3.67969,3.4668c0.0013,0.00065 0.0026,0.0013 0.00391,0.00195c0.09817,0.03346 0.20099,0.05126 0.30469,0.05273c2.27301,0 3.98828,-1.5922 3.98828,-3.52148c-0.00018,-0.01759 -0.00083,-0.03518 -0.00195,-0.05274c-0.10175,-1.90023 -1.79589,-3.40234 -3.98633,-3.40234zM14,12.98828c1.39223,0 1.94197,0.62176 2.00195,1.50391c-0.01215,0.85625 -0.54186,1.51953 -2.00195,1.51953c-1.38541,0 -2.01172,-0.70949 -2.01172,-1.54492c0,-0.41771 0.15242,-0.7325 0.47266,-1.00195c0.32023,-0.26945 0.83428,-0.47656 1.53906,-0.47656zM11,19c-0.55226,0.00006 -0.99994,0.44774 -1,1v19c0.00006,0.55226 0.44774,0.99994 1,1h6c0.55226,-0.00006 0.99994,-0.44774 1,-1v-5.86523v-13.13477c-0.00006,-0.55226 -0.44774,-0.99994 -1,-1zM20,19c-0.55226,0.00006 -0.99994,0.44774 -1,1v19c0.00006,0.55226 0.44774,0.99994 1,1h6c0.55226,-0.00006 0.99994,-0.44774 1,-1v-10c0,-0.82967 0.22639,-1.65497 0.625,-2.19531c0.39861,-0.54035 0.90147,-0.86463 1.85742,-0.84766c0.98574,0.01695 1.50758,0.35464 1.90234,0.88477c0.39477,0.53013 0.61523,1.32487 0.61523,2.1582v10c0.00006,0.55226 0.44774,0.99994 1,1h6c0.55226,-0.00006 0.99994,-0.44774 1,-1v-10.73828c0,-2.96154 -0.87721,-5.30739 -2.38086,-6.89453c-1.50365,-1.58714 -3.59497,-2.36719 -5.80664,-2.36719c-2.10202,0 -3.70165,0.70489 -4.8125,1.42383v-0.42383c-0.00006,-0.55226 -0.44774,-0.99994 -1,-1zM12,21h4v12.13477v4.86523h-4zM21,21h4v1.56055c0.00013,0.43 0.27511,0.81179 0.68291,0.94817c0.40781,0.13638 0.85714,-0.00319 1.11591,-0.34661c0,0 1.57037,-2.16211 5.01367,-2.16211c1.75333,0 3.25687,0.58258 4.35547,1.74219c1.0986,1.15961 1.83203,2.94607 1.83203,5.51953v9.73828h-4v-9c0,-1.16667 -0.27953,-2.37289 -1.00977,-3.35352c-0.73023,-0.98062 -1.9584,-1.66341 -3.47266,-1.68945c-1.52204,-0.02703 -2.77006,0.66996 -3.50195,1.66211c-0.73189,0.99215 -1.01562,2.21053 -1.01562,3.38086v9h-4z"></path></g></g>
+  
+              </svg>
+            </a></div>
+              <p>LinkedIn</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- work... -->
+    <div class="work__section">
+      <h1 class="work__section__heading">WORKS</h1>
+    <section class="work">
+      <div class="work__container work__slide">
+        <div class="work__description">
+         <div class="work__desc-first"><p>FARABI - CLOTHING WEBSITE</p></div>
+         <div class="work__grid"><p class="work_f1">Type of work done</p>
+          <p class="work_f2">UI/UX Design,Web development</p>
+        </div>
+         <div class="work__grid">
+          <p class="work_f1">Technology</p>
+          <p class="work_f2">HTML,CSS,Javascript,NodeJS and MongoDB</p>
+         </div>
+         <div class="work__grid">
+          <p  class="work_f1">Industry</p>
+          <p  class="work_f2">Ecommerce</p>
+         </div>
+         <div class="work__paragraph"><p>Farabi is an e-commerce platform with clothing as the main product. It contain variety of clothes which a person need in any season...</p></div>
+         <div class="work__btn"><button class="btn dbn">Visit Website</button></div>
+        </div>
+        <div class="work__image">
+          <img src="img/ecommerce_img.png" alt="screenshot of farabi website">
+        </div>
+      </div>
+    </section>
+     <!-- work... -->
+  
+     <section class="work">
+      <div class="work__container">
+        <div class="work__description">
+         <div class="work__desc-first"><p>Frolic Gravity - PLAYHUB WEBSITE</p></div>
+         <div class="work__grid"><p  class="work_f1">Type of work done</p>
+          <p class="work_f2">UI/UX Design,Web development</p>
+        </div>
+         <div class="work__grid">
+          <p  class="work_f1">Technology</p>
+          <p class="work_f2">HTML, CSS, Javascript</p>
+         </div>
+         <div class="work__grid">
+          <p class="work_f1">Industry</p>
+          <p class="work_f2">
+            Sports and Recreation</p>
+         </div>
+         <div class="work__paragraph"><p>Frolic Gravity offers a diverse range of sports activities, providing membership plans tailored to individual preferences...</p></div>
+         <div class="work__btn"><button class="btn dbn">Visit Website</button></div>
+        </div>
+        <div class="work__image">
+          <img src="img/frolicgravity_img.png" alt="screenshot of frolic gravity">
+        </div>
+      </div>
+    </section>
+    <!-- work -->
+  
+         <!-- work... -->
+         <section class="work">
+          <div class="work__container">
+            
+            <div class="work__description">
+             <div class="work__desc-first"><p>KnowMe - Online Presence</p></div>
+             <div class="work__grid"><p class="work_f1">Type of work done</p>
+              <p class="work_f2">UI/UX Design,Web development</p>
+            </div>
+             <div class="work__grid">
+              <p class="work_f1">Technology</p>
+              <p class="work_f2">
+                HTML, CSS, Javascript</p>
+             </div>
+             <div class="work__grid">
+              <p class="work_f1">Industry</p>
+              <p class="work_f2">
+                Personal Branding</p>
+             </div>
+             <div class="work__paragraph"><p>KnowMe empowers individuals to manage their online presence, showcasing their talents, skills, and expertise to a global audience, enhancing personal branding and visibility.</p></div>
+             <div class="work__btn"><button class="btn dbn">Visit Website</button></div>
+            </div>
+            <div class="work__image">
+              <img src="img/online_presence_img.png" alt="">
+            </div>
+          </div>
+        </section>
+        <section class="work">
+          <div class="work__container">
+            <div class="work__description">
+             <div class="work__desc-first"><p>RESTAURANT - RESTAURANT WEBSITE</p></div>
+             <div class="work__grid"><p  class="work_f1">Type of work done</p>
+              <p class="work_f2">UI/UX Design,Web development</p>
+            </div>
+             <div class="work__grid">
+              <p  class="work_f1">Technology</p>
+              <p class="work_f2">HTML, TAILWIND CSS, JAVASCRIPT</p>
+             </div>
+             <div class="work__grid">
+              <p class="work_f1">Industry</p>
+              <p class="work_f2">Service </p>
+             </div>
+             <div class="work__paragraph"><p>Restaurant website is a straightforward platform highlighting  services and menu offerings....</p></div>
+             <div class="work__btn"><button class="btn dbn">Visit Website</button></div>
+            </div>
+            <div class="work__image">
+              <img src="img/restaurant_img.png" alt="screenshot of restaurant website">
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="services">
+        <div class="services__container">
+          <h1 class="services__heading">SERVICES</h1>
+          <div class="services__grid-container">
+            <div class="service"><p>LOGO Design</p></div>
+            <div class="service"><p>UI / UX Design</p></div>
+            <div class="service"><p>Web Design</p></div>
+            <div class="service"><p>Frontend Web Development</p></div>
+            <div class="service"><p>Backend Web developer</p></div>
+            <div class="service"><p>App development</p></div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-form">
+        <div class="contact-form__container">
+          <h1>BECOME A CLIENT</h1>
+          <p>Ready to move forward with your project ? </p>
+          <p>Share details via the form or drop us an email.</p>
+          <p>Let's make it happen!</p>
+         <div class="form-container">
+          <form action="">
+            <div class="input"><input type="text" placeholder="Your name" class="textinput name" name="name" required></div>
+            <div class="input"><input type="email" placeholder="Email" class="textinput email" name="email" required></div>
+            <div class="input text_area"><textarea name="textarea" class="textinput message" name="message" placeholder="Your message..." required></textarea></div>
+            <div class="submit-btn"><input type="submit" value="submit" class="btn dbn"></div>
+          </form>
+          <div class="contact-links">
+            <div class="contact-links-1">
+              <h2>Get in Touch</h2>
+              <p>hammadaqdas008@gmail.com</p>
+              <p>+91 8287107980</p>
+            </div>
+            <div class="contact-links-2">
+              <h2>Social media</h2>
+              <div class="social-media-contact">
+                <div class="media-svg">
+                  <a href="https://www.linkedin.com/in/hammad-aqdas-5666ba234" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+                    <g class="footer-svg" fill="#d1d0d0" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M9,4c-2.74952,0 -5,2.25048 -5,5v32c0,2.74952 2.25048,5 5,5h32c2.74952,0 5,-2.25048 5,-5v-32c0,-2.74952 -2.25048,-5 -5,-5zM9,6h32c1.66848,0 3,1.33152 3,3v32c0,1.66848 -1.33152,3 -3,3h-32c-1.66848,0 -3,-1.33152 -3,-3v-32c0,-1.66848 1.33152,-3 3,-3zM14,11.01172c-1.09522,0 -2.08078,0.32736 -2.81055,0.94141c-0.72977,0.61405 -1.17773,1.53139 -1.17773,2.51367c0,1.86718 1.61957,3.32281 3.67969,3.4668c0.0013,0.00065 0.0026,0.0013 0.00391,0.00195c0.09817,0.03346 0.20099,0.05126 0.30469,0.05273c2.27301,0 3.98828,-1.5922 3.98828,-3.52148c-0.00018,-0.01759 -0.00083,-0.03518 -0.00195,-0.05274c-0.10175,-1.90023 -1.79589,-3.40234 -3.98633,-3.40234zM14,12.98828c1.39223,0 1.94197,0.62176 2.00195,1.50391c-0.01215,0.85625 -0.54186,1.51953 -2.00195,1.51953c-1.38541,0 -2.01172,-0.70949 -2.01172,-1.54492c0,-0.41771 0.15242,-0.7325 0.47266,-1.00195c0.32023,-0.26945 0.83428,-0.47656 1.53906,-0.47656zM11,19c-0.55226,0.00006 -0.99994,0.44774 -1,1v19c0.00006,0.55226 0.44774,0.99994 1,1h6c0.55226,-0.00006 0.99994,-0.44774 1,-1v-5.86523v-13.13477c-0.00006,-0.55226 -0.44774,-0.99994 -1,-1zM20,19c-0.55226,0.00006 -0.99994,0.44774 -1,1v19c0.00006,0.55226 0.44774,0.99994 1,1h6c0.55226,-0.00006 0.99994,-0.44774 1,-1v-10c0,-0.82967 0.22639,-1.65497 0.625,-2.19531c0.39861,-0.54035 0.90147,-0.86463 1.85742,-0.84766c0.98574,0.01695 1.50758,0.35464 1.90234,0.88477c0.39477,0.53013 0.61523,1.32487 0.61523,2.1582v10c0.00006,0.55226 0.44774,0.99994 1,1h6c0.55226,-0.00006 0.99994,-0.44774 1,-1v-10.73828c0,-2.96154 -0.87721,-5.30739 -2.38086,-6.89453c-1.50365,-1.58714 -3.59497,-2.36719 -5.80664,-2.36719c-2.10202,0 -3.70165,0.70489 -4.8125,1.42383v-0.42383c-0.00006,-0.55226 -0.44774,-0.99994 -1,-1zM12,21h4v12.13477v4.86523h-4zM21,21h4v1.56055c0.00013,0.43 0.27511,0.81179 0.68291,0.94817c0.40781,0.13638 0.85714,-0.00319 1.11591,-0.34661c0,0 1.57037,-2.16211 5.01367,-2.16211c1.75333,0 3.25687,0.58258 4.35547,1.74219c1.0986,1.15961 1.83203,2.94607 1.83203,5.51953v9.73828h-4v-9c0,-1.16667 -0.27953,-2.37289 -1.00977,-3.35352c-0.73023,-0.98062 -1.9584,-1.66341 -3.47266,-1.68945c-1.52204,-0.02703 -2.77006,0.66996 -3.50195,1.66211c-0.73189,0.99215 -1.01562,2.21053 -1.01562,3.38086v9h-4z"></path></g></g>
+                    </svg></a>
+                </div>
+                <div class="media-svg"><a href="https://x.com/planet_three3?t=rNI_DMNf9T95Ghjow5LXNg&s=09" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+                  <g  class="footer-svg" fill="#d1d0d0" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M5.91992,6l14.66211,21.375l-14.35156,16.625h3.17969l12.57617,-14.57812l10,14.57813h12.01367l-15.31836,-22.33008l13.51758,-15.66992h-3.16992l-11.75391,13.61719l-9.3418,-13.61719zM9.7168,8h7.16406l23.32227,34h-7.16406z"></path></g></g>
+                  </svg>
+                </a></div>
+                <div class="media-svg"><a href="https://www.instagram.com/_hammad_aqdas/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+                  <g class="footer-svg" fill="#d1d0d0" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M16,3c-7.16752,0 -13,5.83248 -13,13v18c0,7.16752 5.83248,13 13,13h18c7.16752,0 13,-5.83248 13,-13v-18c0,-7.16752 -5.83248,-13 -13,-13zM16,5h18c6.08648,0 11,4.91352 11,11v18c0,6.08648 -4.91352,11 -11,11h-18c-6.08648,0 -11,-4.91352 -11,-11v-18c0,-6.08648 4.91352,-11 11,-11zM37,11c-1.10457,0 -2,0.89543 -2,2c0,1.10457 0.89543,2 2,2c1.10457,0 2,-0.89543 2,-2c0,-1.10457 -0.89543,-2 -2,-2zM25,14c-6.06329,0 -11,4.93671 -11,11c0,6.06329 4.93671,11 11,11c6.06329,0 11,-4.93671 11,-11c0,-6.06329 -4.93671,-11 -11,-11zM25,16c4.98241,0 9,4.01759 9,9c0,4.98241 -4.01759,9 -9,9c-4.98241,0 -9,-4.01759 -9,-9c0,-4.98241 4.01759,-9 9,-9z"></path></g></g>
+                  </svg>
+                </a>
+                </div>
+                <div class="media-svg"><a href="https://www.facebook.com/hammad.aqdas.5?mibextid=JRoKGi" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+                  <g class="footer-svg" fill="#d1d0d0" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,3c-12.13844,0 -22,9.86156 -22,22c0,11.01913 8.12753,20.13835 18.71289,21.72852l1.14844,0.17383v-17.33594h-5.19727v-3.51953h5.19727v-4.67383c0,-2.87808 0.69065,-4.77363 1.83398,-5.96289c1.14334,-1.18926 2.83269,-1.78906 5.18359,-1.78906c1.87981,0 2.61112,0.1139 3.30664,0.19922v2.88086h-2.44727c-1.38858,0 -2.52783,0.77473 -3.11914,1.80664c-0.59131,1.03191 -0.77539,2.264 -0.77539,3.51953v4.01758h6.12305l-0.54492,3.51953h-5.57812v17.36523l1.13477,-0.1543c10.73582,-1.45602 19.02148,-10.64855 19.02148,-21.77539c0,-12.13844 -9.86156,-22 -22,-22zM25,5c11.05756,0 20,8.94244 20,20c0,9.72979 -6.9642,17.7318 -16.15625,19.5332v-12.96875h5.29297l1.16211,-7.51953h-6.45508v-2.01758c0,-1.03747 0.18982,-1.96705 0.50977,-2.52539c0.31994,-0.55834 0.62835,-0.80078 1.38477,-0.80078h4.44727v-6.69141l-0.86719,-0.11719c-0.59979,-0.08116 -1.96916,-0.27148 -4.43945,-0.27148c-2.7031,0 -5.02334,0.73635 -6.625,2.40234c-1.60166,1.66599 -2.39258,4.14669 -2.39258,7.34961v2.67383h-5.19727v7.51953h5.19727v12.9043c-9.04433,-1.91589 -15.86133,-9.84626 -15.86133,-19.4707c0,-11.05756 8.94244,-20 20,-20z"></path></g></g>
+                  </svg>
+                </a>
+                </div>
+              
+              </div>
+            </div>
+           
+          </div>
+         </div>
+          <div class="message-success">
+            <p>Message sent successfully 👍</p>
+          </div>
+        </div>
+      </section>
+    <script src="script.js"></script>
+  </body>
+</html>
